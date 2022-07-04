@@ -1,6 +1,17 @@
 # container-from-scratch-python
 This is building a container from scratch
 
+## Build an environment and work in it
+python3 -m venv ./VENV
+
+source VENV/bin/activate
+
+## check the virtual disk space and use resize.sh to expand space if required 
+
+df -h 
+
+(resize.sh can be found on aws docs)
+
 ## Build the Container Yourself and Push to Docker Hub
 
 ### Build image
